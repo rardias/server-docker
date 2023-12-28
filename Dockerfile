@@ -52,10 +52,10 @@ COPY . .
 VOLUME ["/root/.stremio-server"]
 
 # HTTP
-EXPOSE 11470
+EXPOSE 11471
 
 # HTTPS
-EXPOSE 12470
+EXPOSE 12471
 
 # full path to the ffmpeg binary
 ENV FFMPEG_BIN=
